@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "/src/server.js"
+    },
+    {
+      "source": "/",
+      "destination": "/src/server.js"
+    }
+  ]
+}
