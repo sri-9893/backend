@@ -84,7 +84,7 @@ export const sendEmployeeRegistrationEmail = async (employee, password) => {
     <p>Your HRMS account has been successfully created by the Admin.</p>
     <h3>Your Login Credentials:</h3>
     <ul>
-      <li><strong>Login URL:</strong>http://localhost:5173/login /</li>
+      <li><strong>Login URL:</strong> https://hrms-main-1qzy.vercel.app//</li>
       <li><strong>Email/Username:</strong> ${employee.email}</li>
       <li><strong>Password:</strong> ${password}</li>
       <li><strong>Employee ID:</strong> ${employee.employeeId}</li>
